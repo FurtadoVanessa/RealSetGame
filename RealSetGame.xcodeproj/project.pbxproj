@@ -13,6 +13,13 @@
 		829543B524D0FCCA00E4BD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829543B324D0FCCA00E4BD2A /* Main.storyboard */; };
 		829543B724D0FCF800E4BD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829543B624D0FCF800E4BD2A /* Assets.xcassets */; };
 		829543BA24D0FCF900E4BD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829543B824D0FCF900E4BD2A /* LaunchScreen.storyboard */; };
+		829543C224D11AFF00E4BD2A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829543C124D11AFF00E4BD2A /* CardView.swift */; };
+		829543C424D11C8800E4BD2A /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829543C324D11C8700E4BD2A /* Grid.swift */; };
+		82EAD1FF24D26609009E4D45 /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAD1FA24D26608009E4D45 /* ColorEnum.swift */; };
+		82EAD20024D26609009E4D45 /* ShadingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAD1FB24D26608009E4D45 /* ShadingEnum.swift */; };
+		82EAD20124D26609009E4D45 /* SymbolEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAD1FC24D26609009E4D45 /* SymbolEnum.swift */; };
+		82EAD20224D26609009E4D45 /* SetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAD1FD24D26609009E4D45 /* SetController.swift */; };
+		82EAD20324D26609009E4D45 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAD1FE24D26609009E4D45 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		829543B624D0FCF800E4BD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		829543B924D0FCF900E4BD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		829543BB24D0FCF900E4BD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829543C124D11AFF00E4BD2A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		829543C324D11C8700E4BD2A /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		82EAD1FA24D26608009E4D45 /* ColorEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		82EAD1FB24D26608009E4D45 /* ShadingEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadingEnum.swift; sourceTree = "<group>"; };
+		82EAD1FC24D26609009E4D45 /* SymbolEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolEnum.swift; sourceTree = "<group>"; };
+		82EAD1FD24D26609009E4D45 /* SetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetController.swift; sourceTree = "<group>"; };
+		82EAD1FE24D26609009E4D45 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				829543AF24D0FCC900E4BD2A /* SceneDelegate.swift */,
 				829543B124D0FCC900E4BD2A /* ViewController.swift */,
 				829543B324D0FCCA00E4BD2A /* Main.storyboard */,
+				829543C324D11C8700E4BD2A /* Grid.swift */,
+				829543C124D11AFF00E4BD2A /* CardView.swift */,
+				82EAD1FE24D26609009E4D45 /* Card.swift */,
+				82EAD1FA24D26608009E4D45 /* ColorEnum.swift */,
+				82EAD1FD24D26609009E4D45 /* SetController.swift */,
+				82EAD1FB24D26608009E4D45 /* ShadingEnum.swift */,
+				82EAD1FC24D26609009E4D45 /* SymbolEnum.swift */,
 				829543B624D0FCF800E4BD2A /* Assets.xcassets */,
 				829543B824D0FCF900E4BD2A /* LaunchScreen.storyboard */,
 				829543BB24D0FCF900E4BD2A /* Info.plist */,
@@ -139,7 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				829543B224D0FCC900E4BD2A /* ViewController.swift in Sources */,
+				82EAD20024D26609009E4D45 /* ShadingEnum.swift in Sources */,
 				829543AE24D0FCC900E4BD2A /* AppDelegate.swift in Sources */,
+				829543C224D11AFF00E4BD2A /* CardView.swift in Sources */,
+				829543C424D11C8800E4BD2A /* Grid.swift in Sources */,
+				82EAD1FF24D26609009E4D45 /* ColorEnum.swift in Sources */,
+				82EAD20224D26609009E4D45 /* SetController.swift in Sources */,
+				82EAD20324D26609009E4D45 /* Card.swift in Sources */,
+				82EAD20124D26609009E4D45 /* SymbolEnum.swift in Sources */,
 				829543B024D0FCC900E4BD2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
